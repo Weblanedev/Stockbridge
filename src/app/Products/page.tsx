@@ -19,7 +19,6 @@ const Products = () => {
   const { data } = useSWR(url, fetcher);
   const router = useRouter();
   const path = usePathname();
-  console.log(data?.result[3]);
 
   return (
     <main>
