@@ -42,7 +42,7 @@ const Billing = () => {
     const numericalPart = parseFloat(input?.replace(/[^\d.]/g, ""));
 
     // Adding 100 to the numerical part
-    const result = numericalPart + 105;
+    const result = numericalPart + 35;
 
     // Formatting the result back to the original format
     const formattedResult = result.toFixed(2);
@@ -370,7 +370,7 @@ const Billing = () => {
               your experience throughout this website, and for other purposes
               described in our{" "}
               <Link
-                href="/about"
+                href="/"
                 className="text-[#a20401] cursor-pointer"
               >
                 privacy policy.
