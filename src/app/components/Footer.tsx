@@ -35,13 +35,6 @@ const Footer = () => {
               }}>
               Products
             </p>
-            <p
-              className='cursor-pointer'
-              onClick={() => {
-                router.push(`/contact`);
-              }}>
-              Contact Us
-            </p>
           </div>
         </div>
         <div className='flex flex-col gap-[20px] text-[20px] w-[100%]'>
@@ -53,13 +46,6 @@ const Footer = () => {
                 router.push(`/contact`);
               }}>
               Request a Quote
-            </p>
-            <p
-              className='cursor-pointer'
-              onClick={() => {
-                router.push(`/contact`);
-              }}>
-              Contact Us
             </p>
             <p
               className='cursor-pointer'
