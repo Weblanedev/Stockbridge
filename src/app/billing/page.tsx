@@ -35,7 +35,7 @@ const Billing = () => {
       const itemtobebought: any = localStorage.getItem("item")
       setSelectedItem(JSON.parse(itemtobebought))
     } 
-  })
+  }, [])
 
   function add100Dollars(input: string): string {
     // Extracting the numerical part of the input string

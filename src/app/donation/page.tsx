@@ -7,9 +7,7 @@ import ShowDonationModal from "../components/show-donation";
 // import { Book } from "./utils";
 
 const Donation = () => {
-  //@ts-ignore
-  const selectedBook = JSON.parse(localStorage.getItem('item'))
-  console.log(selectedBook)
+  
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -45,12 +43,6 @@ const Donation = () => {
     price: "",
     image: ""
   });
-  useEffect(() => {
-    if(typeof localStorage !== 'undefined') {
-      const itemtobebought: any = localStorage.getItem("item")
-      setSelectedItem(JSON.parse(itemtobebought))
-    } 
-  })
   useEffect(() => {
     // Function to check if all form fields are filled
     const checkFormValidity = () => {
