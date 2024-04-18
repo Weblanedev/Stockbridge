@@ -72,15 +72,9 @@ const Footer = () => {
         </div>
         <div className='w-[100%] lg:text-right text-[20px]'>
           <div>
-            <h1 className='text-[#fff] leading-normal'>Address 1</h1>
+            <h1 className='text-[#fff] leading-normal'>Address</h1>
             <p className='text-[#EFEFF680]'>
-              OZOEBUBECHUKWU COMPOUND, AGBANA VILLAGE, AWKA-SOUTH
-            </p>
-          </div>
-          <div className='py-[20px]'>
-            <h1 className='text-[#fff] leading-normal'>Operating Address</h1>
-            <p className='text-[#EFEFF680]'>
-              6 ONITANA STREET, OFF MOBOLAJI JOHNSON, IKOYI, LAGOS
+              Lekki Lagos, Nigeria
             </p>
           </div>
           <div>

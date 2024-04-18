@@ -164,7 +164,7 @@ const Contact = () => {
                 Call Us
               </h4>
               <p className="text-[#BD820F] leading-[16px]">
-                +234-818-197-0707
+                +234-908-407-1172
               </p>
             </div>
           </div>
@@ -175,7 +175,7 @@ const Contact = () => {
                 Mail Us
               </h4>
               <p className="text-[#BD820F] leading-[16px]">
-                support@Stockbridgetechnologies.com
+                support@stockbridgeng.com
               </p>
             </div>
           </div>
@@ -186,7 +186,7 @@ const Contact = () => {
                 Address
               </h4>
               <p className="text-[#BD820F] leading-normal">
-                6, Samuel Manuwa Stree, Victoria Island, Lagos, Nigeira
+                Lekki, Lagos, Nigeria
               </p>
             </div>
           </div>
