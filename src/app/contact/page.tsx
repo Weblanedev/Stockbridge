@@ -186,7 +186,7 @@ const Contact = () => {
                 Address
               </h4>
               <p className="text-[#BD820F] leading-normal">
-                Lekki, Lagos, Nigeria
+              Plot A Block 5, Sylvatt Avenue, Labak Estate, Abule Egba, Lagos
               </p>
             </div>
           </div>
